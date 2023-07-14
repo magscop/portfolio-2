@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCL Design Portfolio</title>
+    <link rel="stylesheet" href="../UX_UI_HW_19/css/style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+     <header class="navigation">
+        <div class="logo">
+            <img src="../UX_UI_HW_19/images/SCL Design.png" alt="">
+            <nav class="inlineBlock">
+                <ul class="inlineBlock">
+                    <li id="nav">About</li>
+                    <li id="nav2">Projects</li>
+                    <li id="nav3">Creative</li>
+                </ul>
+                <img class="hamburgerMenu" src="../UX_UI_HW_19/images/defaulthamburgermenu.png" alt="">
+            </nav>
+        </div>
+    </header>
+    <section id="hero" class="hero">
+
+            <div id="heroSummary" class="heroContent">
+                <h1>Samantha Chong-Luke</h1>
+                <p class="summary">Hi there, I am Samantha Chong-Luke a freelance UX/UI designer with a background in children’s book
+                    illustration and graphic design. My design approach revolves around making design choices that
+                    reflect user testing and feedback.</p>
+                <p class="summary"><a class="contact" href = "mailto: samanthachongluke@yahoo.ca">Let's Connect: samanthachongluke@yahoo.ca</a></p>
+                <p class="summary">Phone: 647.280.1708</p>
+                <button class="summary" id="resumeLink">Download Resume</button>
+            </div>
+            <div id="heroImage" class="heroContent">
+                <img src="../UX_UI_HW_19/images/myphoto.png" alt="">
+
+            </div>
+
+    </section>
+    <section class="contentGrid" id="contentGrid">
+
+
+        <div id="project1" class="projectDescription">
+            <div class="content">
+            <h1>Project 1/ Post COVID Travel App</h1>
+            <p class="projectDescription">The goal was to create a travel app that provides COVID-19information, to improve the
+                booking process of users looking to travel during the pandemic.</p>
+            </div>
+        </div>
+        <div id="project2" class="projectDescription">
+            <div class="content">
+            <h1>Project 2/ Website Redesign</h1>
+            <p class="projectDescription">The intent of this project was to streamline how users locate information, by focusing on
+                hierarchy and primary navigation</p>
+            </div>
+        </div>
+        <div id="project3" class="projectDescription">
+            <div class="content"><h1>Project 3/ Website Redesign</h1>
+            <p class="projectDescription">The goal was to create a trustworthy and clean platform toincrease user engagement and
+                their ability to help people.</p>
+            </div>
+        </div>
+
+        <div id="thumbnail1" class="projectThumbnail"></div>
+        <div id="thumbnail2" class="projectThumbnail"></div>
+        <div id="thumbnail3" class="projectThumbnail"></div>
+
+
+
+    </section>
+
+    <footer class="footer">
+    
+            <p>2021 Samantha Chong-Luke all rights reserved</p>
+            <ul class="footer">
+                <img id="linkedin"class="social" src="../UX_UI_HW_19/images/linkedin.png">
+                <img id="github" class="social" src="../UX_UI_HW_19/images/Githug.png">
+            </ul>
+            
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="../UX_UI_HW_19/js/index.js"></script>
+</body>
+
+
+</html>
